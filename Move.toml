@@ -1,0 +1,11 @@
+[package]
+name = 'managed_coin'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+orao_network = "0x0bde9a222b9242b94f0162beda7bd09be265680da2dedcccee11b174d09fd1a0"
